@@ -1,0 +1,614 @@
+/*Start Global Rules*/
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Spline Sans', sans-serif;
+    background-color: #f5f7fa;
+}
+.container 
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*Smal Screen*/
+@media(min-width: 768px)
+{
+    .container
+    {
+        width: 750px;
+    }
+}
+/*Middle Screen*/
+@media(min-width: 992px)
+{
+    .container
+    {
+        width: 970px;
+    }
+}
+/*Large Screen*/
+@media (min-width: 1200px)
+{
+    .container
+    {
+        width: 1170px;
+    }
+}
+/*End Global Rules*/
+/*Start Header*/
+.header
+{
+    background-image: url(image01.jpeg);
+    background-size: cover;
+    padding-top: 50px;
+    height: 35vh;
+}
+
+.header .container 
+{
+    overflow: hidden;
+}
+
+.header .image
+{
+    float: left;
+    width: 50%;
+}
+
+.header .image img
+{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.header .image img:hover
+{
+    transition: .3s;
+    cursor: pointer;
+    transform: translateY(3px);
+}
+
+.header .content_1
+{
+    width: 50%;
+    float: left;
+}
+
+.header .content_1 h3
+{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.header .content_1 p
+{
+    color: rgb(255, 238, 238);
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.header .content_1 .button
+{
+    padding: 5px 15px;
+    border-color: #FFF;
+    color: red;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.header .content_1 .button:hover
+{
+    cursor: pointer;
+    color: green;
+}
+
+.header .all-content-2
+{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.header .about-me
+{
+    width: 50%;
+    float: left;
+}
+
+.header .about-me h3
+{
+    text-transform: capitalize;
+    color: #444;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header .about-me p
+{
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.header .form
+{
+    float: left;
+    margin-top: 30px;
+    width: 50%;
+    padding-left: 4%;
+}
+
+.header .form > .div
+{
+    overflow: hidden;
+    width: 100%;
+}
+
+.header .form .div > .y
+{
+    color: #444;
+    margin-bottom: 10px;
+    width: 25%;
+    float: left;
+}
+
+.header .form .div > .z
+{
+    color: #444;
+    margin-bottom: 10px;
+    width: 70%;
+    float: left;
+}
+.header hr
+{
+    border-color: #F5F7FA;
+    margin:0;
+}
+
+.header .all-content-3 
+{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.header .skills 
+{
+    overflow: hidden;
+}
+
+.header .skills h3
+{
+    color: #444;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin:0;
+    font-size: 18px;
+}
+
+.header .skills h2
+{
+    color: #444;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.header .skills .col_1
+{
+    margin-top: 10px;
+    float: left;
+    width: 50%;
+}
+
+.header .skills .col_1 > p
+{
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.header .skills .col_1 .span
+{
+    background-color: #dfe6eb;
+    width: 100%;
+}
+
+.header .skills .col_1 .span > span
+{
+    display: block;
+    height: 16px;
+    background-color: #4a89dc;
+    direction: rtl;
+}
+
+.header .skills .col_2
+{
+    width: 50%;
+    float: left;
+    padding-left: 3%;
+    margin-top: 10px;
+}
+
+.header .skills .col_2 .span
+{
+    background-color: #dfe6eb;
+    width: 100%;
+}
+
+.header .skills .col_2 > p
+{
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.header .skills .col_2 .span > span
+{
+    display: block;
+    height: 16px;
+    background-color: #37bc9b;
+    direction: rtl;
+}
+
+.header .col_3
+{
+    margin-top: 25px;
+}
+
+.header .col_3 h2
+{
+    color: #444;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.header .col_3 > p
+{
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.header .col_3 .span
+{
+    background-color: #dfe6eb;
+    width: 50%;
+}
+
+.header .col_3 .span > span
+{
+    display: block;
+    height: 16px;
+    background-color: #406392;
+    direction: rtl;
+}
+
+.header .all-content-4
+{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.header .education h3.spec
+{
+    color: #444;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header ._a,
+.header ._b,
+.header ._c,
+.header ._d
+{
+    padding: 20px;
+    border-left: 3px solid rgb(48, 187, 187);
+    border-top: 2px solid #dfe6eb;
+    border-right: 2px solid #dfe6eb;
+    border-bottom: 2px solid #dfe6eb;
+    margin: 30px;
+}
+
+.header ._a h3,
+.header ._b h3,
+.header ._c h3,
+.header ._d h3
+{
+    margin: 0;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.header ._a h3 span,
+.header ._b h3 span,
+.header ._c h3 span,
+.header ._d h3 span
+{
+    font-size: 10px;
+    text-transform: capitalize;
+    color: #555;
+}
+
+.header ._a h6,
+.header ._b h6,
+.header ._c h6,
+.header ._d h6
+{
+    margin-top: 8px;
+    color: #555;
+    margin-bottom: 0;
+}
+
+.header ._a p,
+.header ._b p,
+.header ._c p,
+.header ._d p
+{
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.header .all-content-5
+{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.header .experience h3
+{
+    color: #444;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin:0;
+    font-size: 18px;
+}
+
+.header .all-content-6
+{
+    margin-top: 40px;
+}
+
+.header .end .container h3
+{
+    margin: 0;
+    color: #777;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.end .container ul
+{
+    text-align: center;
+    margin-top: 20px;
+    list-style: none;
+    position: relative;
+    padding-left: 0;
+}
+
+.end .container ul li
+{
+    text-align: center;
+    margin-bottom: 10px;
+    display: inline;
+    margin-right: 10px;
+}
+
+.end .container ul li img
+{
+    width: 30px;
+    height: 30px;
+}
+
+.end .container ul li a
+{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.end .container ul li a:hover
+{
+    color: rgb(28, 177, 28);
+    cursor: pointer;
+}
+
+.end .container ul li a:active
+{
+    color: red;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.end .container .text
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.end .container .text p
+{
+    line-height: 1.6;
+    color: #555;
+}
+
+.end .container .text p span
+{
+    color: black;
+    font-weight: bold;
+}
+/*End Header*/
+@media(max-width: 425px)
+{
+    .header
+{
+    background-image: url(image01.jpeg);
+    background-size: cover;
+    padding-top: 50px;
+    height: 35vh;
+}
+
+.header .container 
+{
+    overflow: hidden;
+}
+
+.header .image img
+{
+    width: 100px;
+    height: 100px;
+}
+
+.header .image img:hover
+{
+    transition: .3s;
+    cursor: pointer;
+    transform: translateY(3px);
+}
+
+.header .content_1 h3
+{
+    font-size:18px;
+    margin-left: 40px;
+}
+
+.header .content_1 p
+{
+    font-size: 13px;
+    margin-left: 40px;
+}
+
+.header .content_1 .button
+{
+    margin-left: 40px;
+}
+
+.header .content_1 .button:hover
+{
+    cursor: pointer;
+    color: green;
+}
+
+.header .all-content-2
+{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.header .about-me
+{
+    width: 100%;
+}
+
+.header .form
+{
+    margin-top: 15px;
+    width: 100%;
+    padding-left: 0;
+}
+
+.header .form .div > .y
+{
+    width: 100%;
+}
+
+.header hr
+{
+    border-color: #F5F7FA;
+    margin:0;
+}
+
+.header .all-content-3 
+{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.header .skills .col_1
+{
+    width: 100%;
+}
+
+.header .skills .col_2
+{
+    width: 100%;
+    padding-left: 0;
+}
+
+.header .col_3 .span
+{
+    width: 100%;
+}
+
+.header .all-content-4
+{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.header ._a,
+.header ._b,
+.header ._c,
+.header ._d
+{
+    padding: 10px;
+}
+
+.header .all-content-5
+{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.header .all-content-6
+{
+    margin-top: 30px;
+}
+
+.end .container ul li
+{
+    display:block;
+    margin-bottom: 5px;
+}
+
+.end .container ul li img
+{
+    margin-bottom: 5px;
+}
+
+.end .container ul li a:hover
+{
+    color: rgb(28, 177, 28);
+    cursor: pointer;
+}
+
+.end .container ul li a:active
+{
+    color: red;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+}
